@@ -5,9 +5,12 @@ from StableDefusion.utils import *
 from StableDefusionTools import Img2Img_sd
 from PixAITools import Img2Img_pai
 
+test_mode = True
+
 def post_process_image(temp_image_path, ref_image_path):
-    copy_image(ref_image_path)
-    replace_image(ref_image_path, temp_image_path)
+    if not test_mode:
+        copy_image(ref_image_path)
+        replace_image(ref_image_path, temp_image_path)
     
 
 def main():
@@ -34,4 +37,5 @@ def main():
         print('Unknown')
 
 if __name__ == '__main__':
-    main()
+    for _ in range(10):
+        main()
