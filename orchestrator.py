@@ -15,7 +15,7 @@ def main():
     random_string = get_random_string(5)
     temp_filename = f"tmp_{timestamp}_{random_string}"
 
-    temp_folder = os.path.join(tempfile.gettempdir(), 'RimWorldAIAvatarGenImages')
+    temp_folder = os.path.join(tempfile.gettempdir(), 'RimworldAIAvatarGenImages')
     temp_image_path = os.path.join(temp_folder, temp_filename + '.png')
     os.makedirs(temp_folder, exist_ok=True)
 
