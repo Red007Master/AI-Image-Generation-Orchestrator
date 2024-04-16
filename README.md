@@ -28,3 +28,6 @@ python orchestrator.py pixai "girl, cowboy hat, mask, armor" ./refimg.png
 2. PixAI:
     - configure your API tocken in `PixAI/credentials.py`
     - and see `PixAI/repaint.py`
+
+If you want to run this with local SD you need to install [AUTOMATIC1111`s stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+And if you want to use PixAI you need tocken, consult [this](https://github.com/shidktbw/pixaiAPI)
