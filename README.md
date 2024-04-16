@@ -15,5 +15,7 @@ python orchestrator.py pixai "girl, cowboy hat, mask, armor" ./refimg.png
 ```
 
 ***sdlocal/pixai*** - service to use
+
 ***"girl, cowboy hat, mask, armor"*** - prompt
+
 ***./refimg.png*** - reference image for generation
