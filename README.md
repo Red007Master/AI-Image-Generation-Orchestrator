@@ -19,3 +19,12 @@ python orchestrator.py pixai "girl, cowboy hat, mask, armor" ./refimg.png
 ***"girl, cowboy hat, mask, armor"*** - prompt
 
 ***./refimg.png*** - reference image for generation
+
+## Setup:
+
+1. StableDefusion(Automatic1111):
+    - in `StableDefusion/configuration.py` you can configure basic exposed settings
+    - if you want more control you can edit payload in `StableDefusion/payload.py`
+2. PixAI:
+    - configure your API tocken in `PixAI/credentials.py`
+    - and see `PixAI/repaint.py`
